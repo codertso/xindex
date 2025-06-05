@@ -1,0 +1,14 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/quick-publish?secret=z18735405779",
+      "schedule": "0 22 * * *"
+    }
+  ],
+  "functions": {
+    "src/app/api/**/route.ts": {
+      "runtime": "vercel-nodejs@18.0.0",
+      "includeFiles": "assets/font/NotoSansSC-SemiBold.ttf"
+    }
+  }
+}
